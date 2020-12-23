@@ -19,7 +19,7 @@ export const StyledCard = styled.div`
   ::after{
     display: block;
     content: '';
-    background-color: #245C8D;
+    background-color: #1977c2;
     width: 100%;
     height: 66px;
     position: absolute;
@@ -45,6 +45,7 @@ export const StyledDescription = styled.div`
       'socialCard';
   /* grid-template-columns: 47vw; */
   grid-template-rows: 60px auto 50px;
+  color: #292b2c;
 `
 export const StyledData = styled.div`
   display: adressCard;
@@ -69,7 +70,7 @@ export const StyledName = styled.div`
   ::after{
     display: block;
     content: '';
-    background-color: gray;
+    background-color: #cdcdcd;
     width: 100%;
     height: 1px;
     position: absolute;

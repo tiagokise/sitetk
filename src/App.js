@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Card/>
       <Section/>
-      <Footer/>
+      {/* <Footer/> */}
 
     </div>
   );
