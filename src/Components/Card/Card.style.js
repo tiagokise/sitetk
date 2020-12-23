@@ -5,16 +5,18 @@ export const StyledCard = styled.div`
   contain: content;
   position: relative;
   width: 80vw;
-  height: 300px;
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: -150px auto 0;
   display: grid;
   margin: -150px auto 0;
   grid-template-areas:
-      'imgCard dataCard'
-      'imgCard dataCard';
-  grid-template-columns: 280px auto;
+      'imgCard'
+      'dataCard';
+  grid-template-columns: 100%;
+  height: auto;
+  grid-template-rows: auto;
+
 
   ::after{
     display: block;
@@ -26,13 +28,31 @@ export const StyledCard = styled.div`
     bottom: 0px;
     z-index: -1;
   }
+
+  @media screen{
+    @media (min-width: 768px){
+      grid-template-areas:
+      'imgCard dataCard'
+      'imgCard dataCard';
+      grid-template-columns: 280px auto;
+      height: 300px;
+    }
+  }
 `
 export const StyledImgCard = styled.img`
   grid-area: imgCard;
   width: auto;
-  height: 120%;
-  max-width: 280px;
   object-fit: cover;
+  width: 100%;
+  height: 100vw;
+  max-width: unset;
+
+  @media screen{
+    @media (min-width: 768px){
+      height: 120%;
+      max-width: 280px;
+    }
+  }
 `
 export const StyledDescription = styled.div`
   grid-area: dataCard;
@@ -44,8 +64,15 @@ export const StyledDescription = styled.div`
       'adressCard'
       'socialCard';
   /* grid-template-columns: 47vw; */
-  grid-template-rows: 60px auto 50px;
   color: #292b2c;
+  grid-template-rows: auto 59px 50px;
+
+  @media screen{
+    @media (min-width: 768px){
+      grid-template-rows: 60px auto 50px;
+
+    }
+  }
 `
 export const StyledData = styled.div`
   display: adressCard;

@@ -18,13 +18,33 @@ export const StyledSectionCard = styled.div`
   height: auto;
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  flex-direction: column;
 
+  @media screen{
+    @media (min-width: 768px){
+      flex-direction: row;
+
+    }
+  }
 
   >div{
-    padding: 30px;
-    width: 20%;
+    padding: 20px;
+    width: auto;
+
+    @media screen{
+      @media (min-width: 768px){
+        width: 20%;
+
+      }
+    }
     :first-child{
-      width: 70%;
+      width: auto;
+      @media screen{
+        @media (min-width: 768px){
+          width: 70%;
+
+        }
+      }
     }
     >p{
       line-height: 1.4;

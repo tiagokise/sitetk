@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
     padding: 40px 10vw;
     grid-area: headerTK; */
 
-    background-color: #1977c2;
+    background-color: #2e3336;
     grid-area: headerTK;
     contain: content;
 
@@ -17,4 +17,5 @@ export const StyledHeader = styled.div`
 export const StyledImgHeader = styled.img`
   width: 150%;
   object-fit: contain;
+  display: none;
 `
