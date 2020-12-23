@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledHeader, StyledLogo } from './Header.style';
+import { StyledHeader, StyledLogo, StyledSocial } from './Header.style';
 
 
 export default function Header(){
@@ -9,13 +9,12 @@ export default function Header(){
     <>
       <StyledHeader>
         <StyledLogo>
-          <div className="name">
-            <h1>Tiago</h1>
-            <h2>Kiseliauskas</h2>
-          </div>
+          <h1 className="name">Tiago Kiseliauskas</h1>
           <h3>Frontend Developer</h3>
         </StyledLogo>
+        <StyledSocial>
 
+        </StyledSocial>
       </StyledHeader>
     </>
   )

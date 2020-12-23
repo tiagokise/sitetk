@@ -1,9 +1,18 @@
 #root{
-  width: 100%;
 }
 
 .App {
-  text-align: center;
+  width: 100%;
+  background-color: lightgray;
+  height: 100vh;
+  overflow: auto;
+  display: grid;
+  grid-template-areas:
+      'headerTK'
+      'card'
+      'section'
+      'footer';
+  grid-template-rows: 280px auto auto 50px;
 }
 
 .App-logo {
