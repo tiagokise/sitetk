@@ -1,5 +1,6 @@
 import React from "react";
-import { StyledHeader, StyledLogo, StyledSocial } from './Header.style';
+import { StyledHeader, StyledImgHeader } from './Header.style';
+import ImgHeader from "../../Images/img-header.jpeg";
 
 
 export default function Header(){
@@ -8,13 +9,8 @@ export default function Header(){
 
     <>
       <StyledHeader>
-        <StyledLogo>
-          <h1 className="name">Tiago Kiseliauskas</h1>
-          <h3>Frontend Developer</h3>
-        </StyledLogo>
-        <StyledSocial>
+        <StyledImgHeader src={ImgHeader}/>
 
-        </StyledSocial>
       </StyledHeader>
     </>
   )

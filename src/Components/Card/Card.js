@@ -1,6 +1,8 @@
 import React from "react";
-import { StyledCard, StyledImgCard, StyledDescription } from './Card.style';
+import { StyledCard, StyledImgCard, StyledDescription, StyledData, StyledName, StyledSocial, StyledIcon } from './Card.style';
 import ImgCard from "../../Images/foto-tiago.jpg";
+import ImgLinkedin from "../../Images/linkedin.svg";
+import ImgEmail from "../../Images/o-email.svg";
 
 export default function Card(){
 
@@ -10,10 +12,17 @@ export default function Card(){
       <StyledCard>
         <StyledImgCard src={ImgCard}/>
         <StyledDescription>
-          <p>
-            Desenvolvedor frontend com experiência em ReactJS, Git, Azure, API... dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a t
-          </p>
-          
+          <StyledName>
+            <h2>Tiago Kiseliauskas</h2>
+            <p>Frontend Developer</p>
+          </StyledName>
+          <StyledData>
+
+          </StyledData>
+          <StyledSocial>
+            <StyledIcon src={ImgLinkedin}/>
+            <StyledIcon src={ImgEmail}/>
+          </StyledSocial>
         </StyledDescription>
       </StyledCard>
     </>
