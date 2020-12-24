@@ -16,6 +16,7 @@ export const StyledCard = styled.div`
   grid-template-columns: 100%;
   height: auto;
   grid-template-rows: auto;
+  margin-bottom: 30px;
 
 
   ::after{
@@ -35,7 +36,9 @@ export const StyledCard = styled.div`
       'imgCard dataCard'
       'imgCard dataCard';
       grid-template-columns: 280px auto;
-      height: 300px;
+      height: auto;
+      margin-bottom: 30px;
+      max-width: 800px;
     }
   }
 `
@@ -69,7 +72,7 @@ export const StyledDescription = styled.div`
 
   @media screen{
     @media (min-width: 768px){
-      grid-template-rows: 60px auto 50px;
+      grid-template-rows: 80px auto 50px;
 
     }
   }
