@@ -57,7 +57,7 @@ export const StyledSectionCard = styled.div`
       }
       @media (min-width: 1024px){
         >div{
-          height: 110px;
+          height: 140px;
         }
       }
     }
