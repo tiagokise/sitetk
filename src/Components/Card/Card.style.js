@@ -39,6 +39,11 @@ export const StyledCard = styled.div`
       height: auto;
       margin-bottom: 30px;
       max-width: 800px;
+      height: 357px;
+    }
+    @media (min-width: 1024px){
+      height: auto;
+
     }
   }
 `
@@ -73,7 +78,13 @@ export const StyledDescription = styled.div`
   @media screen{
     @media (min-width: 768px){
       grid-template-rows: 80px auto 50px;
+      height: -webkit-fill-available;
 
+
+    }
+    @media (min-width: 1024px){
+      grid-template-rows: 80px 200px 50px;
+      height: -webkit-fill-available;
     }
   }
 `
