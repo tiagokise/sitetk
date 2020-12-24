@@ -36,13 +36,12 @@ export const StyledCard = styled.div`
       'imgCard dataCard'
       'imgCard dataCard';
       grid-template-columns: 280px auto;
-      height: auto;
       margin-bottom: 30px;
       max-width: 800px;
       height: 357px;
     }
     @media (min-width: 1024px){
-      height: auto;
+      /* height: auto; */
 
     }
   }

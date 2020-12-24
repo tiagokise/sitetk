@@ -13,7 +13,15 @@
       'card'
       'section';
   grid-template-rows: 280px auto auto;
+
 }
+  @media (min-width: 768px){
+    .App{
+
+      grid-template-rows: 280px 250px auto;
+    }
+  }
+
 
 .App-logo {
   height: 40vmin;

@@ -12,7 +12,7 @@ const cardItens = ([
   {name: "idade", label: "Idade", value: "39 anos"},
   {name: "fone", label: "Tel", value: "11 986166687"},
   {name: "cidade", label: "Cidade", value: "São Paulo"},
-  {name: "email", label: "Email", value: "Tiago Kiseliauskas"},
+  {name: "email", label: "Email", value: "tiago.kise@hotmail.com"},
 ])
 
   return(
@@ -32,12 +32,12 @@ const cardItens = ([
             </div>
           </StyledData>
           <StyledSocial>
-            <StyledIcon src={ImgLinkedin}/>
+            <StyledIcon href='https://www.linkedin.com/in/tiago-kiseliauskas-883271147' src={ImgLinkedin}/>
             <StyledIcon src={ImgGithub}/>
             <StyledIcon src={ImgEmail}/>
           </StyledSocial>
         </StyledDescription>
       </StyledCard>
     </>
-  )
+  ) 
 }

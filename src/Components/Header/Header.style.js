@@ -17,5 +17,5 @@ export const StyledHeader = styled.div`
 export const StyledImgHeader = styled.img`
   width: 150%;
   object-fit: contain;
-  display: none;
+  /* display: none; */
 `
