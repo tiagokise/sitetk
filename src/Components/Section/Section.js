@@ -1,9 +1,19 @@
 import React from "react";
 import { StyledSection, StyledSkills, StyledSectionCard } from './Section.style';
 
-
 export default function Section(){
+const navItens = ([
+  {name: "css", label: "CSS3"},
+  {name: "html", label: "HTML5"},
+  {name: "javaScript", label: "Javascript"},
+  {name: "reactJS", label: "ReactJS"},
+  {name: "git", label: "GIT"},
+  {name: "mobileFirst", label: "Mobile First"},
+  {name: "designResponsivo", label: "Design Responsivo"},
+  {name: "api", label: "API"},
+  {name: "jquery", label: "JQuery"},
 
+])
   return(
     <>
       <StyledSection>
@@ -11,17 +21,12 @@ export default function Section(){
           <h1>Skills</h1>
           <StyledSectionCard>
             <div>
-              <p>Desenvolvedor frontend com experiência em ReactJS, Git, Azure, API... dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a t</p>
+              <p>Após 15 anos de experiência com designer gráfico, onde fiz a opção de mudar de área e me especializei em programação principalmente ReactJS. Em mais de 1 ano atuando com Frontend na Eureka Digital, pude aprender e aperfeiçoar meus conhecimentos.</p>
             </div>
             <div>
-              <ul>
-                <li>HTML</li>
-                <li>CSS3</li>
-                <li>JS</li>
-                <li>React</li>
-                <li>GIT</li>
-                <li>API</li>
-              </ul>
+                {navItens.map(navItem =>
+              <p>{navItem.label}</p>
+              )}
             </div>
           </StyledSectionCard>
         </StyledSkills> 

@@ -19,6 +19,7 @@ export const StyledSectionCard = styled.div`
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
   flex-direction: column;
+  margin-bottom: 30px;
 
   @media screen{
     @media (min-width: 768px){
@@ -39,6 +40,7 @@ export const StyledSectionCard = styled.div`
     }
     :first-child{
       width: auto;
+      padding: 20px 20px 0 20px;
       @media screen{
         @media (min-width: 768px){
           width: 70%;
@@ -47,8 +49,11 @@ export const StyledSectionCard = styled.div`
       }
     }
     >p{
-      line-height: 1.4;
+      line-height: 1.8;
       color: #2e3336;
+      font-size: 1.1em;
+      font-weight: 300;
+      margin: 0;
     }
     >ul{
       line-height: 1.4;

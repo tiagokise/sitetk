@@ -65,7 +65,7 @@ export const StyledDescription = styled.div`
       'socialCard';
   /* grid-template-columns: 47vw; */
   color: #292b2c;
-  grid-template-rows: auto 59px 50px;
+  grid-template-rows: auto auto 50px;
 
   @media screen{
     @media (min-width: 768px){
@@ -75,7 +75,8 @@ export const StyledDescription = styled.div`
   }
 `
 export const StyledData = styled.div`
-  display: adressCard;
+  grid-area: adressCard;
+  margin-bottom: 20px;
 `
 export const StyledName = styled.div`
   position: relative;
@@ -91,6 +92,7 @@ export const StyledName = styled.div`
   p{
     margin: 0;
     margin-top: 5px;
+    margin-bottom: 20px;
     font-weight: 300;
     font-size: 1.5em;
   }
@@ -102,6 +104,7 @@ export const StyledName = styled.div`
     height: 1px;
     position: absolute;
     bottom: -20px;
+    margin-bottom: 20px;
   }
 `
 export const StyledSocial = styled.div`
@@ -114,13 +117,13 @@ export const StyledSocial = styled.div`
 
 `
 export const StyledIcon = styled.img`
-  width: 35px;
   height: auto;
   object-fit: contain;
   cursor: pointer;
-  
-  :first-child{
-    width: 30px;
-    margin-right: 15px;
+  width: 30px;
+  margin-right: 15px;
+  :last-child{
+    margin-right: 0px;
+    width: 35px;
   }
 `
