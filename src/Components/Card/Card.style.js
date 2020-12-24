@@ -90,6 +90,12 @@ export const StyledDescription = styled.div`
 export const StyledData = styled.div`
   grid-area: adressCard;
   margin-bottom: 20px;
+  p{
+    font-weight: 600;
+    >b{
+      font-weight: 300;
+    }
+  }
 `
 export const StyledName = styled.div`
   position: relative;
@@ -127,7 +133,20 @@ export const StyledSocial = styled.div`
   position: absolute;
   right: 0;
   align-items: center;
+  justify-content: center;
+  a{
+    margin-right: 15px;
 
+    @media (min-width: 1024px){
+
+      margin: 7px;
+    }
+
+    :last-child{
+      margin-right: 0px;
+      width: 35px;
+    }
+  }
 `
 export const StyledIcon = styled.img`
   height: auto;
@@ -139,4 +158,5 @@ export const StyledIcon = styled.img`
     margin-right: 0px;
     width: 35px;
   }
+
 `

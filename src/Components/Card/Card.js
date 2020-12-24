@@ -10,7 +10,7 @@ export default function Card(){
 const cardItens = ([
   {name: "nome", label: "Nome", value: "Tiago Kiseliauskas"},
   {name: "idade", label: "Idade", value: "39 anos"},
-  {name: "fone", label: "Tel", value: "11 986166687"},
+  {name: "fone", label: "Fone", value: "11 986166687"},
   {name: "cidade", label: "Cidade", value: "São Paulo"},
   {name: "email", label: "Email", value: "tiago.kise@hotmail.com"},
 ])
@@ -27,14 +27,14 @@ const cardItens = ([
           <StyledData>
             <div>
               {cardItens.map(cardItem =>
-                <p><b>{cardItem.label}:</b>{cardItem.value}</p>
+                <p><b>{cardItem.label} </b>{cardItem.value}</p>
               )}
             </div>
           </StyledData>
           <StyledSocial>
-            <StyledIcon href='https://www.linkedin.com/in/tiago-kiseliauskas-883271147' src={ImgLinkedin}/>
-            <StyledIcon src={ImgGithub}/>
-            <StyledIcon src={ImgEmail}/>
+            <a href="https://www.linkedin.com/in/tiago-kiseliauskas-883271147"><StyledIcon src={ImgLinkedin}/></a>  
+            <a href="https://github.com/tiagokise"><StyledIcon src={ImgGithub}/></a>  
+            <a href="mailto:tiago.kise@hotmail.com"><StyledIcon src={ImgEmail}/></a>  
           </StyledSocial>
         </StyledDescription>
       </StyledCard>
