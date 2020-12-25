@@ -134,8 +134,14 @@ export const StyledSocial = styled.div`
   right: 0;
   align-items: center;
   justify-content: center;
+  overflow: visible;
+
   a{
     margin-right: 15px;
+    transition: transform 0.3s;
+    :hover{
+      transform: scale(1.2);
+    }
 
     @media (min-width: 1024px){
 
@@ -143,7 +149,7 @@ export const StyledSocial = styled.div`
     }
 
     :last-child{
-      margin-right: 0px;
+      margin-right: 10px;
       width: 35px;
     }
   }
