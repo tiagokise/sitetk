@@ -11,14 +11,14 @@
   grid-template-areas:
       'headerTK'
       'card'
-      'section';
-  grid-template-rows: 280px auto auto;
-
+      'section'
+      'footer';
+  grid-template-rows: 280px auto auto 50px;
 }
   @media (min-width: 768px){
     .App{
 
-      grid-template-rows: 280px 250px auto;
+      grid-template-rows: 280px 250px auto 50px;
     }
   }
 

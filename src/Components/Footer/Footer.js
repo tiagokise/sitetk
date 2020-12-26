@@ -7,7 +7,7 @@ export default function Footer(){
   return(
 
     <>
-      <StyledFooter>Footer</StyledFooter>
+      <StyledFooter>2020 - Tiago Frontend</StyledFooter>
     </>
   )
 }
