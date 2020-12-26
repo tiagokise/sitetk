@@ -34,7 +34,7 @@ export const StyledSectionCard = styled.div`
     }
     @media (min-width: 1024px){
       height: 226px;
-      max-width: 800px;
+      max-width: 1000px;
     }
   }
 
@@ -43,8 +43,8 @@ export const StyledSectionCard = styled.div`
     width: auto;
     
     @media screen{
-      @media (min-width: 768px){
-        width: 50%;
+      @media (min-width: 500px){
+        /* width: 50%; */
         >div{
           display: flex;
           flex-direction: column;
@@ -54,6 +54,18 @@ export const StyledSectionCard = styled.div`
             margin: 0 0 10px 0;
           }
         }
+      }
+      @media (min-width: 768px){
+        width: 50%;
+        /* >div{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          height: 160px;
+          >p{
+            margin: 0 0 10px 0;
+          }
+        } */
       }
       @media (min-width: 1024px){
         >div{

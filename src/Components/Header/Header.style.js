@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
     padding: 40px 10vw;
     grid-area: headerTK; */
 
-    background-color: #777888;
+    background-color: #000000;
     grid-area: headerTK;
     contain: content;
 
@@ -21,7 +21,7 @@ export const StyledImgHeader = styled.img`
   /* transition: all 15s;   */
   /* display: none; */
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;  
 
@@ -29,13 +29,17 @@ export const StyledImgHeader = styled.img`
   @keyframes example {
     from {  
       margin-left: 0px;
-      width: 150%;
+      width: 280%;
       transform: rotate(0deg);
+      margin-top: -50px;
+
     }
     to {
-      margin-left: -200px;
+      margin-left: -160px;
       width: 200%;
-      transform: rotate(10deg);
+      transform: rotate(5deg);
+      margin-top: -50px;
+
     }
   }
 
