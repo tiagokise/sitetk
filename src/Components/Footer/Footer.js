@@ -7,7 +7,10 @@ export default function Footer(){
   return(
 
     <>
-      <StyledFooter>2020 - Tiago Frontend</StyledFooter>
+      <StyledFooter>
+        <div><a href="mailto:tiago.kise@hotmail.com">tiago.kise@hotmail.com</a></div>
+        <div>@2020</div>
+      </StyledFooter>
     </>
   )
 }
