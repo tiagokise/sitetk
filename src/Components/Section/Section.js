@@ -7,6 +7,7 @@ const navItens = ([
   {name: "html", label: "HTML5"},
   {name: "javaScript", label: "Javascript"},
   {name: "reactJS", label: "ReactJS"},
+  {name: "nextJS", label: "NextJS"},
   {name: "nodeJS", label: "NodeJS"},
   {name: "git", label: "GIT"},
   {name: "mobileFirst", label: "Mobile First"},
