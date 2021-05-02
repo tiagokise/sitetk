@@ -21,7 +21,7 @@ const navItens = ([
       <StyledSection>
           <StyledSectionCard>
             <div>
-              <p>Após 15 anos de experiência como designer gráfico, onde fiz a opção de mudar de área e me especializei em programação principalmente ReactJS. Em mais de 1 ano atuando como Frontend na Eureka Digital, pude aprender e aperfeiçoar meus conhecimentos.</p>
+              <p>Após 15 anos de experiência como designer gráfico, onde fiz a opção de mudar de área e me especializei em programação principalmente ReactJS, e desde janeiro de 2020 venho atuando como Frontend Developer na Eureka Digital, pude aprender e aperfeiçoar meus conhecimentos.</p>
             </div>
             <div>
               <h1>Skills</h1>
